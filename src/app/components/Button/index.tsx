@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 type ButtonType = {
-  size?: 'xs' | 'normal' | 'lg';
+  size?: 'small' | 'normal' | 'large';
 };
 const renderSize = (size = 'normal') => {
-  if (size === 'xs') {
+  if (size === 'small') {
     return css`
       height: 32px;
     `;
@@ -13,7 +13,7 @@ const renderSize = (size = 'normal') => {
       height: 40px;
     `;
   }
-  if (size === 'lg') {
+  if (size === 'large') {
     return css`
       height: 48px;
     `;
