@@ -1,14 +1,14 @@
 import styled, { css } from 'styled-components';
 type ButtonType = {
-  size?: 'xs' | 'md' | 'lg';
+  size?: 'xs' | 'normal' | 'lg';
 };
-const renderSize = (size = 'md') => {
+const renderSize = (size = 'normal') => {
   if (size === 'xs') {
     return css`
       height: 32px;
     `;
   }
-  if (size === 'md') {
+  if (size === 'normal') {
     return css`
       height: 40px;
     `;
