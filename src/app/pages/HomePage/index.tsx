@@ -9,17 +9,6 @@ export function HomePage() {
         <title>Home Page</title>
         <meta name="description" content="A Boilerplate application homepage" />
       </Helmet>
-      <Button
-        display={'flex'}
-        justifyContent={'space-around'}
-        alignItems={'center'}
-        color={'red'}
-        border={'1px solid red'}
-        margin={'10'}
-      >
-        <div>icon</div>
-        <div>text</div>
-      </Button>
     </>
   );
 }
