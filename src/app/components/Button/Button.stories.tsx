@@ -15,9 +15,15 @@ export default {
 
 export const Submit: ComponentStory<typeof Button> = () => (
   <div>
-    <Button size={'small'}>Submit Small</Button>
-    <Button size={'normal'}>Submit Normal</Button>
-    <Button size={'large'}>Submit Large</Button>
+    <Button size={'small'} types={'orange'}>
+      Submit Small
+    </Button>
+    <Button size={'normal'} types={'normal'}>
+      Submit Normal
+    </Button>
+    <Button size={'large'} types={'outlineOrange'}>
+      Submit Large
+    </Button>
     <Button>Submit Normal</Button>
   </div>
 );
