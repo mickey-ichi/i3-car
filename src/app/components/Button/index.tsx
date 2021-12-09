@@ -20,22 +20,22 @@ const renderSize = (size = 'normal') => {
     `;
   }
 };
-const renderType = (size = 'normal') => {
-  if (size === 'orange') {
+const renderType = (type = 'normal') => {
+  if (type === 'orange') {
     return css`
       color: #ffffff;
       background-color: #ff661a;
       border: 1px solid transparent;
     `;
   }
-  if (size === 'normal') {
+  if (type === 'normal') {
     return css`
       color: #222222;
       background-color: #f8f8f8;
       border: 1px solid #cccccc;
     `;
   }
-  if (size === 'outlineOrange') {
+  if (type === 'outlineOrange') {
     return css`
       color: #f23d3d;
       background-color: #ffffff;
