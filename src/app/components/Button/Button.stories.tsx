@@ -18,7 +18,7 @@ export const Submit: ComponentStory<typeof Button> = () => (
     <Button size={'small'} types={'orange'}>
       Submit Small
     </Button>
-    <Button size={'normal'} types={'normal'}>
+    <Button size={'normal'} types={'outlineNormal'}>
       Submit Normal
     </Button>
     <Button size={'large'} types={'outlineOrange'}>

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 type ButtonType = {
   size?: 'small' | 'normal' | 'large';
-  types?: 'orange' | 'normal' | 'outlineOrange' | 'price';
+  types?: 'orange' | 'normal' | 'outlineOrange' | 'price' | 'outlineNormal';
 };
 const renderSize = (size = 'normal') => {
   if (size === 'small') {
@@ -35,6 +35,13 @@ const renderType = (type = 'normal') => {
     return css`
       color: #222222;
       background-color: #f8f8f8;
+      border: 1px solid #cccccc;
+    `;
+  }
+  if (type === 'outlineNormal') {
+    return css`
+      color: #222222;
+      background-color: #ffffff;
       border: 1px solid #cccccc;
     `;
   }
